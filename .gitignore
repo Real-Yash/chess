@@ -1,0 +1,32 @@
+# Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+backend/stockfish/*
+!backend/stockfish/.gitkeep
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
